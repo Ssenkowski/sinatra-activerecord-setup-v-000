@@ -1,8 +1,8 @@
 class CreateDogs < ActiveRecord::Migration
   def up
-    create_table :dogs do |t|
-      t.string :name
-      t.string :breed
+    create_table :dogs do |c|
+      c.string :name
+      c.string :breed
   end
 
   def down
