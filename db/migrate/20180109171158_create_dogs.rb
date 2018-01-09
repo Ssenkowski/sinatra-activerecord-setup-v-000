@@ -3,6 +3,7 @@ class CreateDogs < ActiveRecord::Migration
     create_table :dogs do |c|
       c.string :name
       c.string :breed
+    end
   end
 
   def down
